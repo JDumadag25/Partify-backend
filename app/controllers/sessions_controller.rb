@@ -1,4 +1,4 @@
-class Api::V1::SessionsController < ApplicationController
+class SessionsController < ApplicationController
 
 
     def create
@@ -8,7 +8,7 @@ class Api::V1::SessionsController < ApplicationController
       else
         render json: {
           errors: "Those credentials don't match anything we have in our database"
-        }, status: :unauthorized
+        }
       end
     end
 end
