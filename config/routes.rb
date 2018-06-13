@@ -4,5 +4,9 @@ Rails.application.routes.draw do
 
     resources :sessions
 
+    resources :songs
+
+    mount ActionCable.server => '/cable'
+
 
 end
