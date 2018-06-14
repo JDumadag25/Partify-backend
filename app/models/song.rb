@@ -5,4 +5,5 @@ class Song < ApplicationRecord
   validate :uri
   validate :upvotes
   validate :downvotes
+  validate :trackid
 end
