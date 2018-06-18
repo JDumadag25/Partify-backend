@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180614145058) do
+ActiveRecord::Schema.define(version: 20180618152959) do
 
   create_table "songs", force: :cascade do |t|
     t.string "name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20180614145058) do
     t.integer "upvotes"
     t.integer "downvotes"
     t.string "trackid"
+    t.boolean "vote"
   end
 
   create_table "users", force: :cascade do |t|

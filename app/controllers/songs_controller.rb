@@ -27,7 +27,8 @@ class SongsController < ApplicationController
       :image,
       :upvotes,
       :downvotes,
-      :trackid
+      :trackid,
+      :vote
     )
   end
 
