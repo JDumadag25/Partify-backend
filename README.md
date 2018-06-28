@@ -4,5 +4,4 @@ Create a .env file in the root of this repository and generate a new `JWT_PASSWO
 
 You can use [this website](https://passwordsgenerator.net/) to generate one.
 
-````Run bundle install, rake db:migrate
-then rails s````
+````Run bundle install, rake db:migrate then rails s````
