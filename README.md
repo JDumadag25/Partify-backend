@@ -1,24 +1,8 @@
-# README
+#### This is the back end for the Party-fy application. Front-end is [linked here.](https://github.com/JDumadag25/Partify-frontend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a .env file in the root of this repository and generate a new `JWT_PASSWORD` variable.
 
-Things you may want to cover:
+You can use [this website](https://passwordsgenerator.net/) to generate one.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+````Run bundle install, rake db:migrate
+then rails s````
